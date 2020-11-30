@@ -13,7 +13,7 @@ struct Node {
     }
 };
 
-// Задача 8. Да се напише функция, която проверява дали даден двусвързан списък е палиндром.
+// Task 1. Write a function which check if a doubly linked list is a palindrome
 bool isPalindrome(Node* start) {
     if (start == nullptr) {
         return true;

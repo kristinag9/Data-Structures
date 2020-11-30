@@ -1,10 +1,10 @@
 #include <iostream>
 #include <stack>
 
-// Задача 1. Дефинирайте функцията void swapWithSecond(Node* &first, int element),
-// която намира подадената стойност в списъка и я разменя със стойността на елемента,
-// намиращ се на две позиции напред в списъка (ако е възможно).
-// Ако списъкът не съдържа подадената стойност се извежда съобщение, че не е възможна размяна. 
+// Task 1. Define a function void swapWithSecond(Node* &first, int element),
+// which finds a current value in the list and swap it with the value of the element
+// that is on two positions forward in the list (if it is possible).
+// If the list doesn't contain this value, display a message to show that it is not possible.
 struct Node {
     int data;
     Node* next;
@@ -40,9 +40,9 @@ void swapWithSecond(Node*& first, int element) {
     }
 }
 
-// Задача 2. Дефинирайте функцията void deleteSum(Node* &first), 
-// която намира разликата на най-големия и най-малкия елемент в списъка и ако в него съществува възел с такава стойност, 
-// изтрива всички негови срещания. В противен случай извежда съобщение, че не е намерен такъв елемент.
+// Task 2. Define a function void deleteSum(Node* &first), which finds the difference between the biggest 
+// and the smallest element in the list. And if there is a node with this value in the list, delete all its occurences.
+// Otherwise, display a message that there is no such element.
 void deleteSum(Node*& first) {
     if (first == nullptr) {
         return;
@@ -87,7 +87,7 @@ void deleteSum(Node*& first) {
     }
 }
 
-// Задача 3. 
+// Task 3
 int countElements(Node* first) {
     Node* current = first;
     int counter = 0;
