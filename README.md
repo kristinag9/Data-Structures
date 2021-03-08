@@ -1,2 +1,2 @@
 # Data Structures
- The repository contains exercises from the classes of Data structures at FMI.
+ The repository contains exercises for the Data structures course at FMI.
